@@ -185,9 +185,9 @@ namespace LumexLDM6432_MQTT {
         basic.pause(delayTime)
     }
 
-    //% blockId="LDM_setID" block="control the device ID %myID of the LDM"
+    //% blockId="LDM_setDeviceID" block="control the device ID %myID of the LDM"
     //% weight=100 blockGap=10
-    export function setDeviceID(myID:string): void{
+    export function LDM_setDeviceID(myID:string): void{
         deviceID=myID
         privateTopic="ezDisplay/"+deviceID
         ldmTopic=privateTopic
