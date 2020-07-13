@@ -1,6 +1,6 @@
 {
     "name": "LumexLDM6432_MQTT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "這是專為micro:bit提供的LumexLDM 64*32無線控制顯示積木(This is an extension for the Lumex 64*32 LDM MQTT display screen.)",
     "license": "MIT",
     "dependencies": {
