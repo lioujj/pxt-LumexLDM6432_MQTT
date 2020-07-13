@@ -2,7 +2,7 @@
 * LUMEX LDM 64*32 顯示器的函數
 */
 
-//% weight=0 color=#70cc0e icon="\uf09e" block="LDM64*32 MQTT"
+//% weight=12 color=#70cc0e icon="\uf09e" block="LDM64*32 MQTT"
 namespace LumexLDM6432_MQTT {
     let normalDelay=250
     let longDelay=2000
