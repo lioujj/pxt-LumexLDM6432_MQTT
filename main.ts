@@ -272,7 +272,7 @@ namespace LumexLDM6432_MQTT {
     }
 
     //% blockId="LDM_playPages" block="display multi pages stored in the LDM |number of pages(2~7) %pages|animation %effect|speed(1~10) %mySpeed"
-    //% weight=88 blockGap=10 blockInlineInputs=true pages.min=2 pages.max=7 effect.min=16 effect.max=30 mySpeed.min=1 mySpeed.max=10
+    //% weight=88 blockGap=10 blockInlineInputs=true pages.min=2 pages.max=7 effect.min=16 effect.max=30 mySpeed.min=1 mySpeed.max=10 mySpeed.defl=1
     export function LDM_playPages(pages: number, effect: animationType, mySpeed: number): void {
         LDM_stopPages()
         publishMQTT("ATbf=(" + mySpeed + ")", normalDelay)
