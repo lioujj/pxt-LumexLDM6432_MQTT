@@ -2,7 +2,7 @@
 * LUMEX LDM 64*32 顯示器的函數
 */
 
-//% weight=12 color=#70cc0e icon="\uf09e" block="LDM64*32 MQTT"
+//% weight=12 color=#69b512 icon="\uf09e" block="LDM64*32 MQTT"
 namespace LumexLDM6432_MQTT {
     let normalDelay=250
     let longDelay=2000
@@ -195,7 +195,7 @@ namespace LumexLDM6432_MQTT {
 
     //% blockId="LDM_setPublicTopic" block="control your LDMs，MQTT Topic %myTopic"
     //% weight=99 blockGap=10
-    export function setPublicTopic(myTopic:string): void{
+    export function LDM_setPublicTopic(myTopic:string): void{
         publicTopic=myTopic
         ldmTopic=publicTopic
     }
@@ -248,6 +248,7 @@ namespace LumexLDM6432_MQTT {
         publishMQTT("ATfc=(" + myPage + ")", normalDelay)
     }
 
+    /*
     //% blockId="LDM_effectSpeed" block="set effect animation speed(1~10) %mySpeed"
     //% weight=91 blockGap=10 blockInlineInputs=true mySpeed.min=1 mySpeed.max=10 mySpeed.defl=1
     export function LDM_effectSpeed(mySpeed: number): void {
@@ -259,6 +260,7 @@ namespace LumexLDM6432_MQTT {
     export function LDM_pagesInterval(myInterval: number): void {
         publishMQTT("ATbe=(" + myInterval + ")", normalDelay)
     }
+    */
 
     //% blockId="LDM_playPage2" block="display single page(0~6) stored in the LDM: %myPage|animation %effect|speed(1~10) %mySpeed"
     //% weight=89 blockGap=10 blockInlineInputs=true myPage.min=0 myPage.max=6 effect.min=1 effect.max=15 mySpeed.min=1 mySpeed.max=10 mySpeed.defl=1
