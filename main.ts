@@ -233,7 +233,7 @@ namespace LumexLDM6432_MQTT {
         if (myOn_Off==1)
           publishMQTT("run", longDelay)
         else
-          publishMQTT("atfd=(0)", normalDelay)
+          LDM_stopPages()
     }
 
     //% blockId="LDM_ATcommand" block="execute AT command: %atCommand"
