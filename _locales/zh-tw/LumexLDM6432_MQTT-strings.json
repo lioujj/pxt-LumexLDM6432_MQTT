@@ -48,7 +48,7 @@
     "LumexLDM6432_MQTT.moveDirection.leftward|block":"向左",
     "LumexLDM6432_MQTT.moveDirection.rightward|block":"向右",
     "LumexLDM6432_MQTT.LDM_setDeviceID|block":"單獨控制ID為 %myID 的LDM",
-    "LumexLDM6432_MQTT.setPublicTopic|block":"開始群播控制多個LDM，設定MQTT Topic %myTopic",
+    "LumexLDM6432_MQTT.LDM_setPublicTopic|block":"開始群播控制多個LDM，設定MQTT Topic %myTopic",
     "LumexLDM6432_MQTT.LDM_clear|block":"LDM清除畫面",
     "LumexLDM6432_MQTT.LDM_display|block":"LDM顯示畫面",
     "LumexLDM6432_MQTT.LDM_on|block":"設定LDM %myOn_Off",
